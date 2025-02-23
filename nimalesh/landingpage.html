@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Headphones Landing Page</title>
+</head>
+<body>
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: rgb(214, 20, 20);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo h1 {
+  font-size: 1.8rem;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+  margin-left: 1.5rem;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: rgb(255, 6, 6);
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+  color: #ff9800;
+}
+
+.hero {
+  background: url('headphones-hero.jpg') no-repeat center center/cover;
+  color: rgb(231, 47, 47);
+  text-align: center;
+  padding: 150px 20px;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cta-btn {
+  background-color: #ff9800;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.cta-btn:hover {
+  background-color: #e68900;
+}
+
+.features {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.feature-item {
+  margin-bottom: 20px;
+}
+
+.feature-item h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.feature-item p {
+  font-size: 1.1rem;
+}
+
+.shop {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.shop h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}
+    </style>
+  <header>
+    <div class="logo">
+      <h1>AudioX</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#shop">Shop Now</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Experience Premium Sound</h2>
+      <p>Wireless, comfortable, and built for performance.</p>
+      <a href="#shop" class="cta-btn">Shop Now</a>
+    </div>
+  </section>
+
+  <section id="features" class="features">
+    <h2>Features</h2>
+    <div class="feature-item">
+      <h3>Crystal Clear Sound</h3>
+      <p>Enjoy every beat with high-quality audio.</p>
+    </div>
+    <div class="feature-item">
+      <h3>Long Battery Life</h3>
+      <p>Up to 30 hours of music playtime.</p>
+    </div>
+    <div class="feature-item">
+      <h3>Comfortable Fit</h3>
+      <p>Designed for all-day wear without discomfort.</p>
+    </div>
+  </section>
+
+  <section id="shop" class="shop">
+    <h2>Get Yours Now</h2>
+    <a href="#" class="cta-btn">Buy Now</a>
+  </section>
+
+  <footer id="contact">
+    <p>&copy; 2025 AudioX. All rights reserved.</p>
+  </footer>
+</body>
+</html>
